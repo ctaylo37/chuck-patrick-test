@@ -12,18 +12,6 @@ h1.title{
 	margin-left: 26px;
 }
 
-.half{
-	display: inline-block;
-	width: 50%;
-	float: left;
-}
-
-.quarter{
-	display: inline-block;
-	width: 25%;
-	float: left;
-}
-
 ul.nav{
 	list-style-type: none;
 	text-align: right;
@@ -65,10 +53,30 @@ footer img{
 	margin-top: 180px;
 }
 
+.profile{
+	padding: 10px;
+	border-radius: 50%;
+	border: solid 1px #dddddd;
+}
+
+/*Layout*/
 .container{
 	width: 960px;
 	margin: 0 auto;
 	clear: both;
 	padding-top: 48px;
 }
+
+.half{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.quarter{
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
 
